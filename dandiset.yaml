@@ -42,6 +42,7 @@ contributor:
   - dcite:ContactPerson
   schemaKey: Person
 dateCreated: '2023-12-05T19:37:24.190508+00:00'
+datePublished: '2024-07-16T14:14:23.762988+00:00'
 description: The VR-SASE workflow uses Open Brush, open source, virtual reality art
   software, and Blender to segment neurons.  A DataJoint pipeline determines spatial
   distribution of dendritic spines, filters them based on morphological parameters
@@ -53,6 +54,18 @@ license:
 manifestLocation:
 - https://api.dandiarchive.org/api/dandisets/000723/versions/draft/assets/
 name: VR-SASE Virtual Reality Dendritic Spine Analysis
+publishedBy:
+  endDate: '2024-07-16T14:14:23.762988+00:00'
+  id: urn:uuid:a9e231f0-2a7f-4c8e-b19a-b2f1af8aa0f8
+  name: DANDI publish
+  schemaKey: PublishActivity
+  startDate: '2024-07-16T14:14:23.762988+00:00'
+  wasAssociatedWith:
+  - id: urn:uuid:c1950ef4-6fe6-4170-9107-3332430df81e
+    identifier: RRID:SCR_017571
+    name: DANDI API
+    schemaKey: Software
+    version: 0.1.0
 repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.6.4
