@@ -18,9 +18,9 @@ assetsSummary:
     schemaKey: MeasurementTechniqueType
   - name: analytical technique
     schemaKey: MeasurementTechniqueType
-  numberOfBytes: 207350136
-  numberOfFiles: 27
-  numberOfSubjects: 9
+  numberOfBytes: 208220320
+  numberOfFiles: 30
+  numberOfSubjects: 10
   schemaKey: AssetsSummary
   species:
   - identifier: http://purl.obolibrary.org/obo/NCBITaxon_10090
@@ -32,7 +32,7 @@ assetsSummary:
   - PlaneSegmentation
   - OpticalChannel
 citation: Reimer, Marike (2024) VR-SASE Virtual Reality Dendritic Spine Analysis (Version
-  draft) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/000723/draft
+  0.240716.1414) [Data set]. DANDI archive. https://doi.org/10.48324/dandi.000723/0.240716.1414
 contributor:
 - affiliation: []
   email: marike.reimer@yale.edu
@@ -47,12 +47,13 @@ description: The VR-SASE workflow uses Open Brush, open source, virtual reality 
   software, and Blender to segment neurons.  A DataJoint pipeline determines spatial
   distribution of dendritic spines, filters them based on morphological parameters
   and is exported into a CSV for further analysis.
-id: DANDI:000723/draft
+doi: 10.48324/dandi.000723/0.240716.1414
+id: DANDI:000723/0.240716.1414
 identifier: DANDI:000723
 license:
 - spdx:CC0-1.0
 manifestLocation:
-- https://api.dandiarchive.org/api/dandisets/000723/versions/draft/assets/
+- https://dandiarchive.s3.amazonaws.com/dandisets/000723/0.240716.1414/assets.yaml
 name: VR-SASE Virtual Reality Dendritic Spine Analysis
 publishedBy:
   endDate: '2024-07-16T14:14:23.762988+00:00'
@@ -69,5 +70,5 @@ publishedBy:
 repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.6.4
-url: https://dandiarchive.org/dandiset/000723/draft
-version: draft
+url: https://dandiarchive.org/dandiset/000723/0.240716.1414
+version: 0.240716.1414
